@@ -1,0 +1,9 @@
+--- xdg-1.0.7/setup.py.orig	2017-11-28 20:55:05.000000000 +0100
++++ xdg-1.0.7/setup.py	2020-09-13 14:35:57.550579483 +0200
+@@ -36,5 +36,5 @@
+         'Programming Language :: Python :: 3',
+     ],
+     keywords='xdg base directory specification',
+-    py_modules=['xdg'],
++    py_modules=['xdgenv'],
+ )
