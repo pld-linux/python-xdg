@@ -70,7 +70,7 @@ zewnętrznych zależności.
 
 # "xdg" name conflicts with older (but more comprehensive) pyxdg module,
 # which uses xdg namespace; rename to allow using both in the same system.
-%patch0 -p1
+%patch -P0 -p1
 %{__mv} xdg.py xdgenv.py
 
 %build
